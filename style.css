@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Changa:wght@300&family=Cinzel&family=Cookie&family=EB+Garamond&family=IBM+Plex+Sans:ital,wght@0,100;1,100&family=Ibarra+Real+Nova:wght@400;500;700&family=Manrope:wght@300;400;700&family=Merienda+One&family=Montserrat:wght@200&family=Nunito+Sans:wght@200&family=Parisienne&family=Poppins:wght@200;300;400;500;600;700;800&family=Public+Sans:wght@100;200;400&family=Quicksand:wght@300;400;500;600&family=Raleway:wght@100;200;300;400;500&family=Roboto+Slab:wght@100&family=Satisfy&family=Smooch&family=Source+Serif+Pro:wght@200&family=Titillium+Web:wght@200;300&family=Vollkorn:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:'Quicksand', sans-serif;
+}
+.back_bigdiv {
+  width: 100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.back_bigdiv h2 {
+  margin: 30px 0px;
+}
+.back_bigdiv button {
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 1.5em;
+  border:2px solid white;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+.back_bigdiv button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.back_bigdiv input {
+  display: none;
+}
